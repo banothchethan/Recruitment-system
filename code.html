@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruitment System</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+        }
+
+        header {
+            background-color: #1f4e79;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #163a5c;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 30px auto;
+        }
+
+        .job {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px #ccc;
+        }
+
+        .job h2 {
+            color: #1f4e79;
+        }
+
+        button {
+            background-color: #1f4e79;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #163a5c;
+        }
+
+        footer {
+            background-color: #1f4e79;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Recruitment System</h1>
+        <p>Find the right job and build your career</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#jobs">Jobs</a>
+        <a href="#apply">Apply</a>
+        <a href="#">Login</a>
+    </nav>
+
+    <div class="container">
+
+        <h1 id="jobs">Available Jobs</h1>
+
+        <div class="job">
+            <h2>Software Developer</h2>
+            <p><strong>Company:</strong> ABC Technologies</p>
+            <p><strong>Location:</strong> Hyderabad</p>
+            <p><strong>Skills:</strong> Java, HTML, CSS, JavaScript</p>
+            <button>Apply Now</button>
+        </div>
+
+        <div class="job">
+            <h2>Data Analyst</h2>
+            <p><strong>Company:</strong> XYZ Solutions</p>
+            <p><strong>Location:</strong> Bangalore</p>
+            <p><strong>Skills:</strong> Python, SQL, Excel</p>
+            <button>Apply Now</button>
+        </div>
+
+        <div class="job">
+            <h2>Web Developer</h2>
+            <p><strong>Company:</strong> Tech Solutions</p>
+            <p><strong>Location:</strong> Chennai</p>
+            <p><strong>Skills:</strong> HTML, CSS, JavaScript</p>
+            <button>Apply Now</button>
+        </div>
+
+        <h1 id="apply">Job Application</h1>
+
+        <form>
+            <label>Full Name:</label><br>
+            <input type="text" name="name" required><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email" required><br><br>
+
+            <label>Phone Number:</label><br>
+            <input type="tel" name="phone" required><br><br>
+
+            <label>Qualification:</label><br>
+            <input type="text" name="qualification"><br><br>
+
+            <label>Resume:</label><br>
+            <input type="file" name="resume"><br><br>
+
+            <button type="submit">Submit Application</button>
+        </form>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Recruitment System. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
